@@ -87,7 +87,6 @@ public class Partie extends Observable {
         assert noJoueur == 0 || noJoueur == 1;
         
         int scoreTotal = 0;
-        
         int nbAllTours = getNbTours();
         
         for (int i = 0; i < nbAllTours; i++) {
